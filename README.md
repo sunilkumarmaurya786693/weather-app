@@ -1,3 +1,8 @@
+this project is live on check on below link
+                        https://weathersunil.netlify.app/
+                        https://sunilkumarmaurya786693.github.io/weather-app/
+                        https://weather-app-sunil.herokuapp.com/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
