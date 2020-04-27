@@ -5,8 +5,8 @@ import './App.css';
 
 const App= () => {
   const [cityName,setCityName]=useState('varanasi');
-  const [weatherIconId,setWeatherIconId]=useState('01n');
-  const [temperature,setTemperature]=useState('300');
+  const [weatherIconId,setWeatherIconId]=useState('01d');
+  const [temperature,setTemperature]=useState('27');
   const [tempType,setTempType]=useState('C');
   const [description,setDescription]=useState('haze');
   const [country,setCountry]=useState('In');
