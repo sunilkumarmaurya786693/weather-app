@@ -15,7 +15,7 @@ const App= () => {
   const [humidity,setHumidity]=useState('20');
   const handleCityName=()=>{
     setCityName(document.getElementById('cityName').innerText);
-    const api=`http://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=1f80bb9b36778fd0fafca50fcef0abf9`
+    const api=`https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=1f80bb9b36778fd0fafca50fcef0abf9`
     fetch(api).then(data=>data.json()).then((data)=>{
       if(isEmpty(data))return;
       setWeatherIconId(data.weather[0].icon);
